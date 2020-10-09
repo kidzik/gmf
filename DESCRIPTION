@@ -1,0 +1,27 @@
+Package: gmf
+Type: Package
+Date: 2020-09-23
+Title: Generalized Matrix Factorization
+Version: 0.2.1
+Author: Lukasz Kidzinski, Francis K.C. Hui, David I. Warton, Trevor J. Hastie
+Maintainer: Lukasz Kidzinski <lukasz.kidzinski@stanford.edu>
+Description: Factorization of matrices under the assumptions of the GLLVM model. This is an extension of classical tools such as PCA and SVD when data is not Gaussian. The package contains an implementation of two algorithms: Alternating Reweighted Iterative Least Squares and quasi-Newton approach where derivatives and Hessians are approximated directly (Kidzinski et al. 2020).
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 7.0.2
+Depends:
+    R (>= 2.15.0)
+Imports:
+    parallel,
+    whitening,
+    vegan,
+    assertthat,    
+    MASS
+Suggests:
+    tidyr,
+    dplyr,
+    raster,
+    ggplot2,
+    reshape2,
+    gllvm
+Roxygen: list(markdown = TRUE)

@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+.*\.RData
+models
+.*\.Rda
+paper
+.git
+aux_scripts
+experiments
+figures
+data
